@@ -1,0 +1,16 @@
+.modal {
+  background-color: #fafafa;
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  top: 80px;
+  z-index: 20;
+}
+
+@media (max-width: 600px) {
+  .modal {
+    background-color: white;
+    top: 160px;
+  }
+}

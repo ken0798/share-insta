@@ -1,0 +1,18 @@
+.netw_error {
+  min-height: 663px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.netw_error button {
+  border: none;
+  border-radius: 8px;
+  background-color: #4094ef;
+  height: 32px;
+  width: 102px;
+  color: white;
+  cursor: pointer;
+}

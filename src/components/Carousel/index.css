@@ -1,0 +1,46 @@
+.carousel_item {
+  text-align: center;
+  width: 70px !important;
+}
+
+.carousel_item > img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel_item > p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.disable rect {
+  fill: #e5e5e5;
+}
+
+.arrow {
+  position: absolute;
+  top: 25%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.arrow_left {
+  left: -15px;
+}
+
+.arrow_right {
+  right: -15px;
+}
+
+.arrow_left > svg {
+  transform: rotate(180deg);
+}
+
+.slick-slide {
+  transform: translateX(27%);
+}

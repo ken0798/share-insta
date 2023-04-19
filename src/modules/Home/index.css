@@ -1,0 +1,24 @@
+.bg_container {
+  background-color: #fafafa;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .bg_container {
+    background-color: white;
+  }
+}
+
+.body_screen {
+  display: flex;
+  justify-content: center;
+}
+
+.body_screen > div {
+  width: 100%;
+  max-width: 1040px;
+  padding-inline: 16px;
+  padding-block: 48px;
+}
