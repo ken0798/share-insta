@@ -1,5 +1,5 @@
-import HeroLogo from "/src/assets/images/loginHero.svg";
-import logoIcon from "/src/assets/images/logoIcon.svg";
+import HeroLogo from "../../assets/images/loginHero.svg";
+import logoIcon from "../../assets/images/logoIcon.svg";
 import { loginUser, TOKEN } from "../../services";
 import { useContext, useState, useEffect } from "react";
 import { UserCredContext } from "../../context";

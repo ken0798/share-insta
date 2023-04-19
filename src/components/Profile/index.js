@@ -1,7 +1,7 @@
-import Header from "../../components/Header";
+import Header from "../Header";
 import { BsGrid3X3 } from "react-icons/bs";
 import { BiCamera } from "react-icons/bi";
-import errorConnection from "/src/assets/images/errorConnection.svg";
+import errorConnection from "../../assets/images/errorConnection.svg";
 import "./index.css";
 import Loader from "../Loader";
 import NetworkError from "../NetworkError";

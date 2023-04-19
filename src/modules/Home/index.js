@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import { LeftArrow, RightArrow, CarouselItem } from "../../components/Carousel";
 import Loader from "../../components/Loader";
 import Cookies from "js-cookie";
-import alert from "/src/assets/images/alert.svg";
+import alert from "../../assets/images/alert.svg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

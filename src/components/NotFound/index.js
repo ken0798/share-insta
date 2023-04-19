@@ -1,4 +1,4 @@
-import notFound from "/src/assets/images/notFound.svg";
+import notFound from "../../assets/images/notFound.svg";
 import { useNavigate } from "react-router-dom";
 import "./index.css";
 
