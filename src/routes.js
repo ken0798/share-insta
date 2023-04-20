@@ -17,8 +17,8 @@ function RouterLayer() {
           <Route path="/profile" Component={MyProfile} />
           <Route path="/search" Component={Search} />
           <Route path="/users/:id" Component={UserProfile} />
-          <Route path="*" Component={NotFound} />
         </Route>
+        <Route path="*" Component={NotFound} />
       </Routes>
     </BrowserRouter>
   );
